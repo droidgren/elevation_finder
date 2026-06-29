@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url=https://toposcout.org/">
+<link rel="canonical" href="https://toposcout.org/">
+<title>Redirecting to TopoScout</title>
+<style>
+  :root {
+    --ink: #1f2b27;
+    --paper: #f3f0e7;
+    --line: #6b8f7a;
+    --accent: #b5651d;
+  }
+  html, body {
+    margin: 0;
+    height: 100%;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card {
+    text-align: center;
+  }
+  svg.contours {
+    width: 96px;
+    height: 96px;
+    display: block;
+    margin: 0 auto 1.25rem;
+  }
+  svg.contours path {
+    fill: none;
+    stroke: var(--line);
+    stroke-width: 1.5;
+  }
+  svg.contours path:nth-child(2) { stroke: var(--accent); }
+  h1 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin: 0 0 0.4rem;
+    letter-spacing: 0.01em;
+  }
+  p {
+    font-size: 0.9rem;
+    margin: 0;
+    color: #57625d;
+  }
+  a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <svg class="contours" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <path d="M50 10 C 25 10, 12 30, 14 50 C 16 72, 32 88, 50 90"/>
+      <path d="M50 28 C 36 28, 28 40, 30 52 C 32 66, 40 74, 50 75"/>
+      <path d="M50 44 C 44 44, 40 48, 41 53"/>
+    </svg>
+    <h1>Moving to TopoScout</h1>
+    <p>Redirecting now — or <a href="https://toposcout.org/">continue manually</a>.</p>
+  </div>
+  <script>
+    window.location.replace("https://toposcout.org/");
+  </script>
+</body>
+</html>
